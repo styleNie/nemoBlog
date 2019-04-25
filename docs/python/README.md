@@ -1,0 +1,6 @@
+- [python SMTP发送邮件](python/python-SMTP发送邮件.md)
+- [python xlwt写excel文件](python/python-xlwt写excel文件.md)
+- [python包的引用](python/python包的引用.md)
+- [python发送手机短信](python/python发送手机短信.md)
+- [python自动打电话功能](python/python自动打电话功能.md)
+- [基尼系数的计算](python/基尼系数的计算.md)
