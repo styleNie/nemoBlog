@@ -54,6 +54,7 @@
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
 <script>
   const gitalk = new Gitalk({
     clientID: 'f92ccb51d6872dafef44',
@@ -64,7 +65,8 @@
     id: location.pathname,
     // facebook-like distraction free mode
     distractionFreeMode: false
-  })
+  });
+  gitalk.render('gitalk-container');
 </script>
 <!-- 分页-->
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
