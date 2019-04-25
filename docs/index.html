@@ -52,7 +52,7 @@
   <!--script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>-->
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <div id="gitalk-container"></div>
+  
   <script>
     const gitalk = new Gitalk({
       clientID: 'f92ccb51d6872dafef44',
@@ -60,7 +60,7 @@
       repo: 'https://github.com/styleNie/nemoBlog.git',
       owner: 'styleNie',
       admin: ['styleNie'],
-      id: location.pathname,
+      id: decodeURI(location.pathname),
       // facebook-like distraction free mode
       distractionFreeMode: true
     });
