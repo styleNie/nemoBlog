@@ -287,22 +287,22 @@ https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/te
 接下来可以研究的工作：
 
 Depthwise Separable Convolutions for Neural Machine Translation
-https://arxiv.org/abs/1706.03059
-One Model To Learn Them All
+https://arxiv.org/abs/1706.03059     
+One Model To Learn Them All        
 https://arxiv.org/abs/1706.05137
-Discrete Autoencoders for Sequence Models
+Discrete Autoencoders for Sequence Models       
 https://arxiv.org/abs/1801.09797
-Generating Wikipedia by Summarizing Long Sequences
+Generating Wikipedia by Summarizing Long Sequences      
 https://arxiv.org/abs/1801.10198
-Image Transformer
+Image Transformer        
 https://arxiv.org/abs/1802.05751
-Training Tips for the Transformer Model
+Training Tips for the Transformer Model      
 https://arxiv.org/abs/1804.00247
-Self-Attention with Relative Position Representations
+Self-Attention with Relative Position Representations      
 https://arxiv.org/abs/1803.02155
-Fast Decoding in Sequence Models using Discrete Latent Variables
+Fast Decoding in Sequence Models using Discrete Latent Variables     
 https://arxiv.org/abs/1803.03382
-Adafactor: Adaptive Learning Rates with Sublinear Memory Cost
+Adafactor: Adaptive Learning Rates with Sublinear Memory Cost       
 https://arxiv.org/abs/1804.04235
 
 

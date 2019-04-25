@@ -50,7 +50,7 @@
   <script src="//unpkg.com/docsify-copy-code"></script>
   <!-- disqus评论系统-->
   <!--script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
-<!-- gittalk评论系统-->
+<!- gittalk评论系统-->
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -61,6 +61,7 @@
     repo: 'https://github.com/styleNie/nemoBlog.git',
     owner: 'styleNie',
     admin: ['styleNie'],
+    id: decodeURI(window.location.pathname),
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
