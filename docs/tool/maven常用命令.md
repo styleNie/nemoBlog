@@ -1,3 +1,4 @@
+<!--
 ---
 title: maven常用命令 
 author: styleNie
@@ -21,7 +22,7 @@ print_background: false
 export_on_save:
     html: true
 ---   
-
+-->
 Maven库：
 
 ```http://repo2.maven.org/maven2/```

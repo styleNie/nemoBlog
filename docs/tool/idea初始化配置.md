@@ -1,3 +1,4 @@
+<!--
 ---
 title: idea初始化配置 
 author: styleNie
@@ -21,7 +22,7 @@ print_background: false
 export_on_save:
     html: true
 ---
-
+-->
 ## 修改IntelliJ IDEA系统缓存目录      
 在IDEA安装目录的bin文件夹中找到idea.properties文件，将idea.config.path和idea.system.path改成将要存放目录的位置    
 ```html   

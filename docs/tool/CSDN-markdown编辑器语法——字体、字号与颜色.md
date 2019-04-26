@@ -1,3 +1,4 @@
+<!--
 ---
 title: "CSDN-markdown编辑器语法——字体、字号与颜色"    
 author: http://blog.csdn.net/testcs_dn/article/details/45719357/    
@@ -10,7 +11,7 @@ toc:
   depth_to: 6    
   ordered: false    
 ---
-
+-->
 #  <center>CSDN-markdown编辑器语法——字体、字号与颜色</center>
 
 ## 字体、字号与颜色

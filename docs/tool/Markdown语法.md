@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Markdown语法"    
 author:     
@@ -21,7 +22,7 @@ export_on_save:
   html: true    
 
 ---
-
+-->
 # <center>Markdown语法</center>  
 [Visual Studio Code](https://code.visualstudio.com/) +   [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 打开本文档
 <center> <font face="黑体">目录</font></center>     

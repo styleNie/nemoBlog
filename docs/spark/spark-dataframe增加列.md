@@ -1,3 +1,4 @@
+<!--
 ---
 title: "spark dataframe 增加列"        
 author:           
@@ -21,7 +22,7 @@ export_on_save:
   html: true    
 
 ---
-
+-->
 # <center>spark dataframe 增加列</center>     
 
 dataframe增加列可以用withColumn函数实现，withColumn函数的第一个参数为增列的列的名字，第二列为dataframe中原来某一列    

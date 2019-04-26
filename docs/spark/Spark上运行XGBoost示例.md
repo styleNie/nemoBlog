@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Spark 上运行 XGBoost 示例"    
 author:     
@@ -8,7 +9,7 @@ toc:
   depth_to: 6    
   ordered: false    
 ---
-
+-->
 # <center>Spark 上运行 XGBoost 示例</center>  
 
 ##  环境准备 

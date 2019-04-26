@@ -1,3 +1,4 @@
+<!--
 ---
 title: "hive索引"      
 author:       
@@ -21,7 +22,7 @@ export_on_save:
   html: true    
 
 ---
-
+-->
 # <center>hive索引</center>
 <center> <font face="黑体">目录</font></center>     
 

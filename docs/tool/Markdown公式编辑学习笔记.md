@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Markdown公式编辑学习笔记"    
 author:     
@@ -8,11 +9,9 @@ toc:
   depth_to: 6    
   ordered: false    
 ---
-
+-->
 # <center>Markdown公式编辑学习笔记</center>  
-<center> <font face="黑体">目录</font></center>     
-
-[TOC]  
+ 
 
 ## 一、公式使用参考
 

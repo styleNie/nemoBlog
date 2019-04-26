@@ -1,3 +1,4 @@
+<!--
 ---
 title: 利用 Github 和 hexo 搭建自己的博客
 author: styleNie
@@ -21,7 +22,7 @@ print_background: false
 export_on_save:
     html: true
 ---
-
+-->
 ## 环境准备   
 - [Github](https://github.com/)账号   
 - [Git](https://github.com/waylau/git-for-win)客户端，[淘宝镜像](https://npm.taobao.org/mirrors/git-for-windows/2.12.0.windows.1/Git-2.12.0-64-bit.exe),版本2.12      
