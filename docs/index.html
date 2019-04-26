@@ -23,6 +23,7 @@
       subMaxLevel: 3,
       loadNavbar: true,
       homepage: 'home.md',
+      executeScript: true,
       //disqus: 'shortname'
       pagination: {
           previousText: '上一页',
@@ -40,6 +41,11 @@
             }
           }
         },
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/styleNie/nemoBlog/blob/master/docs/'
+        ),
+        ]
       
     }
   </script>
