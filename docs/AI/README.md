@@ -23,3 +23,6 @@
 - [目标检测：Fast R-CNN](AI/目标检测-Fast-R-CNN.md)
 - [目标检测：Faster R-CNN](AI/目标检测-Faster-R-CNN.md)
 - [目标检测：R-CNN](AI/目标检测-R-CNN.md)
+- [SVM概率输出原理](AI/SVM概率输出原理.md)
+- [tensorflow的embedding_lookup函数](AI/tf.nn.embedding_lookup函数.md)
+- [PCANet:A Simple Deep Learning Baseline for Image Classification](AI/《PCANet_A_Simple_Deep_Learning_Baseline_for_Image_Classification》.md)

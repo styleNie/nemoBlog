@@ -4,3 +4,4 @@
 - [python发送手机短信](python/python发送手机短信.md)
 - [python自动打电话功能](python/python自动打电话功能.md)
 - [基尼系数的计算](python/基尼系数的计算.md)
+- [python+opencv实现简单的图片搜索功能](python/python+opencv实现简单的图片搜索功能.md)
