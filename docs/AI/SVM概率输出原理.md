@@ -35,7 +35,14 @@ min -\sum_{i} t_i log(p_i) + (1-t_i)log(1-p_i)  \tag{4}
 p_i=\frac{1}{1+exp(Af_i +B)}
 ```
 由于sigmoid函数的稀疏性(sigmoid(-5)=0.0067;sigmoid(5)=0.9933)而$t_i$取值{0，1},要完全拟合目标值，就要求sigmoid的输入向实数轴两端靠拢，而sigmoid函数对数轴两端的值变化不敏感，难以区分，所以对$t_i$做一个平滑处理，platt的做法是 
-![image](https://img-blog.csdn.net/20151202225047523)
+```math
+t_i = 
+\begin{cases}
+\frac{N_+ + 1}{N_+ + 2},  & \text{if $y_i$=+1} \\[2ex]
+\frac{1}{N_+ + 2}, & \text{if $y_i$=-1}
+\end{cases}  i=1,...,l
+```
+
 
 
 其中$N_+$为正样本的数目，$N_-$为负样本的数目。
@@ -44,6 +51,11 @@ p_i=\frac{1}{1+exp(Af_i +B)}
 3.1数值问题 
 求解（4）时遇到两个数值计算的问题；求解(4)的梯度与hessian矩阵如下     
 ```math
+\nabla F(z)=\left[  \frac{\sum_i f_i(t_i - p_i)}{\sum_i (t_i - p_i)}    \right]
+```
+
+```
+H(z) = \begin{bmatrix} \sum_i f_i^2 p_i(1-p_i) & \sum_i f_i p_i(1-p_i) \\ \sum_i f_i p_i(1-p_i) & \sum_i p_i(1-p_i) \\ \end{bmatrix} 
 ```
 
 1) log与exp函数极易溢出，如果$Af_i+B$较大，那么$exp(Af_i+B) →∞$；而当$p_i→0$时，$log(p_i) →∞$,Platt对其作了修正让log(0)返回-200，但并不是一个好的办法    

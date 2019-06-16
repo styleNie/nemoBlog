@@ -8,7 +8,7 @@ val rdd=sc.parallelize(Array(1,2,3,4,5,6,Double.NaN,7,8,9),2)
 ```
 rdd.stats
 ```
-![image](https://img-blog.csdn.net/20151129111609998)    
+<div align=center><img src=./pictures/sparkAPI_1.png /></div>    
 
 由于原始数据中有一个缺失值Double.NaN，使得统计结果失去意义，很自然的想到用filter过滤掉这个缺失值   
 
@@ -17,7 +17,7 @@ import java.lang.Double.isNaN
 rdd.filter(!isNaN(_)).stats()
 ```
 
-![image](https://img-blog.csdn.net/20151129112119681)
+<div align=center><img src=./pictures/sparkAPI_2.png /></div>
 
 经过过滤后再进行统计分析，得到了合理的结果，但是这个方法是不是最优的呢？     
 
@@ -135,9 +135,9 @@ object NAStatCounter extends Serializable {
 
 3.在spark-shell中引用修改的源码     
 在shell下新建一个 StatsWithMissing.scala文件，将上述代码添加进去，保存并关闭，然后在spark-shell中用 ：load引用     
-![image](https://img-blog.csdn.net/20151129114734507)
+<div align=center><img src=./pictures/sparkAPI_3.png /></div>
 
-![image](https://img-blog.csdn.net/20151129114813349)
+<div align=center><img src=./pictures/sparkAPI_4.png /></div>
 
 测试结果表明引用成功。
 
