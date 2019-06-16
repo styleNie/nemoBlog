@@ -66,7 +66,7 @@ $$
 \begin{aligned}
 -(t_i log p_i + (1-t_i)log(1-p_i))   
 &= (t_i -1)(Af_i+B)+log(1+exp(Af_i +B)  \tag {5} \\
-&= t_i(Af_i + B)+log(1+exp(-Af_i -B))   \tag {6} \\
+&= t_i(Af_i + B)+log(1+exp(-Af_i -B))   \tag {6} 
 \end{aligned}
 $$
 
