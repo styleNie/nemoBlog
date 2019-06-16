@@ -41,7 +41,7 @@ t_i =
 \begin{cases}
 \frac{N_1 + 1}{N_1 + 2},  & \text{if y_i=+1} \\[2ex]
 \frac{1}{N_1 + 2}, & \text{if y_i=-1}
-\end{cases} ,i=1...,l 
+\end{cases} 
 $$    
 
 其中$N_1$为正样本的数目，$N_0$为负样本的数目。
