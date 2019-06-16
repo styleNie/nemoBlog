@@ -39,7 +39,7 @@ $$
 $$
 t_i = 
 \begin{cases}
-\frac{N_{+} + 1}{N_{+} + 2},  & \text{if $y_i$=+1} \\[2ex]
+\frac{N_{+} + 1}{N_{+} + 2},  & \text{if $y_i$=+1} \\
 \frac{1}{N_{+} + 2}, & \text{if $y_i$=-1}
 \end{cases} ,i=1...,l 
 $$    
