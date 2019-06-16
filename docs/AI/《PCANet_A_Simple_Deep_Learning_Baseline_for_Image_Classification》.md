@@ -1,5 +1,5 @@
 对照论文中的示例图和文章给出的代码来梳理     
-![image](https://img-blog.csdn.net/20160331205807263)
+ <div align=center><img src=./pictures/PCA_1.png />   </div> 
 
 从图中看到，整个网络有三个关键步骤，Patch-mean removal 、 PCA filter convolution与Binary quantization &mapping ，分别是局部均值化、PCA卷积、二值化与直方图映射    
 im2col_mean_removal.m 
