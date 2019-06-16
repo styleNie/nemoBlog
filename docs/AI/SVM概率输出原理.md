@@ -36,10 +36,10 @@ p_i=\frac{1}{1+exp(Af_i +B)}
 $$
 由于sigmoid函数的稀疏性(sigmoid(-5)=0.0067;sigmoid(5)=0.9933)而$t_i$取值{0，1},要完全拟合目标值，就要求sigmoid的输入向实数轴两端靠拢，而sigmoid函数对数轴两端的值变化不敏感，难以区分，所以对$t_i$做一个平滑处理，platt的做法是      
 $$
-f(n) = 
+t_i = 
 \begin{cases}
-\frac{n}{2},  & \text{if n is even} \\[2ex]
-3n+1, & \text{if n is odd}
+\frac{N_1 +1}{N_1 +2},  & \text{if n is even} \\[2ex]
+\frac{1}{N_1 + 2}, & \text{if n is odd}
 \end{cases}
 $$
 
