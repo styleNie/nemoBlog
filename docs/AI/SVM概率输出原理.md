@@ -34,15 +34,15 @@ $$
 $$
 p_i=\frac{1}{1+exp(Af_i +B)}
 $$
-由于sigmoid函数的稀疏性(sigmoid(-5)=0.0067;sigmoid(5)=0.9933)而$t_i$取值{0，1},要完全拟合目标值，就要求sigmoid的输入向实数轴两端靠拢，而sigmoid函数对数轴两端的值变化不敏感，难以区分，所以对$t_i$做一个平滑处理，platt的做法是    
+由于sigmoid函数的稀疏性(sigmoid(-5)=0.0067;sigmoid(5)=0.9933)而$t_i$取值{0，1},要完全拟合目标值，就要求sigmoid的输入向实数轴两端靠拢，而sigmoid函数对数轴两端的值变化不敏感，难以区分，所以对$t_i$做一个平滑处理，platt的做法是      
 
 $$
 t_i = 
 \begin{cases}
-\frac{N_+ + 1}{N_+ + 2},  & \text{if $y_i$=+1} \\[2ex]
-\frac{1}{N_+ + 2}, & \text{if $y_i$=-1}
-\end{cases}  
-$$   
+\frac{N_{+} + 1}{N_{+} + 2},  & \text{if $y_i$=+1} \\[2ex]
+\frac{1}{N_{+} + 2}, & \text{if $y_i$=-1}
+\end{cases} ,i=1...,l 
+$$    
 
 其中$N_+$为正样本的数目，$N_-$为负样本的数目。
 
