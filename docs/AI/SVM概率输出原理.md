@@ -38,8 +38,8 @@ $$
 $$
 t_i = 
 \begin{cases}
-\frac{N_1 + 1}{N_1 + 2},  & \text{if y_i=+1} \\[2ex]
-\frac{1}{N_1 + 2}, & \text{if y_i=-1}
+\frac{N_1 + 1}{N_1 + 2},  & \text{if y_i=\+1} \\[2ex]
+\frac{1}{N_1 + 2}, & \text{if y_i=\-1}
 \end{cases} 
 $$
 
