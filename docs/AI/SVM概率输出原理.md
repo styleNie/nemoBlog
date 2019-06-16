@@ -38,8 +38,8 @@ $$
 $$
 t_i = 
 \begin{cases}
-\frac{N_1 + 1}{N_1 + 2},  & \text{if y=+1} \\[2ex]
-\frac{1}{N_1 + 2}, & \text{if y=-1}
+\frac{N_1 + 1}{N_1 + 2},  & \text{if yi=+1} \\[2ex]
+\frac{1}{N_1 + 2}, & \text{if yi=-1}
 \end{cases} i=1,...,l
 $$
 
@@ -61,11 +61,10 @@ $$
 
 3.2 libsvm的改进     
 在libsvm中作者对这些问题给出了其解决办法 
-将公式（4）变换形式     
-
+将公式（4）变换形式
 $$
 \begin{aligned}
--(t_i log p_i + (1-t_i)log(1-p_i))   \\
+-(t_i log p_i + (1-t_i)log(1-p_i))   
 &=(t_i -1)(Af_i+B)+log(1+exp(Af_i +B)  \tag {5} \\
 &=t_i(Af_i + B)+log(1+exp(-Af_i -B))   \tag {6} \\
 \end{aligned}
